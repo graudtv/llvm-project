@@ -1,0 +1,12 @@
+#ifndef LLVM_LIB_TARGET_QRISC_TARGETINFO_QRISCTARGETINFO_H
+#define LLVM_LIB_TARGET_QRISC_TARGETINFO_QRISCTARGETINFO_H
+
+namespace llvm {
+
+class Target;
+
+Target &getTheQRISCTarget();
+
+} // end namespace llvm
+
+#endif // LLVM_LIB_TARGET_QRISC_TARGETINFO_QRISCTARGETINFO_H
